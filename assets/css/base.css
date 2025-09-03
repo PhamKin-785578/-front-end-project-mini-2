@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root
+{
+    --color-pink: #FF589E;
+    --color-blue: #8261EE;
+    --color-purple: #B98AE3;
+    --color-text: #777777;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+
+    --color-bg-1: #F2F2FE;
+
+    --font: 'Raleway', sans-serif;
+}
+
+body
+{
+    font-family: var(--font);
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.para h1,p
+{
+    font-size: 38px;
+    margin-bottom: 30px;
+    color: var(--color-black);
+    text-align: center;
+}
+
+.para p
+{
+    font-size: 15px;
+    color: var(--color-text);
+}
+
+.button
+{
+    display: inline-block;
+    background: var(--color-blue);
+    padding: 8px 20px;
+    border-radius: 70px;
+    font-size: 14px;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.button:hover
+{
+    background: var(--color-pink);
+}
+
+.icon
+{
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-purple);
+}
+
+.box-list
+{
+    margin-top: 50px;
+}
+
+.delete
+{
+    text-decoration: line-through;
+}
+
+textarea 
+{
+    resize: none;
+}
+
+ul
+{
+    padding: 0;
+}
